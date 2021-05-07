@@ -32,7 +32,7 @@ h1 {
   height: 0;
   color: white;
   clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   user-select: none;
   cursor: pointer;
