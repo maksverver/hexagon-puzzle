@@ -5,6 +5,8 @@ color tiles red or blue. Red tiles are worth nothing. Blue tiles are worth 2
 points plus 1 point per red neighbor. What is the maximum total score you can
 achieve?
 
+Try it out here: https://maksverver.github.io/hexagon-puzzle/
+
 Index:
 
   brute-force-size-3.cc
