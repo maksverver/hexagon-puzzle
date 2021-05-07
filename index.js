@@ -90,7 +90,7 @@ function initialize() {
         tiles.push(tile);
         tileElem.onclick = () => {
           tile.toggle();
-          window.location.hash = '#tiles=' + encodeState(tiles);
+          window.history.replaceState(null, null, '#tiles=' + encodeState(tiles));
         }
         gridElem.appendChild(tileElem);
       }
