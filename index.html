@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Hexagon puzzle</title>
+  <link rel="stylesheet" href="index.css">
+ </head>
+ <body onload="initialize()">
+ <div id="grid"></div>
+ <div id="instructions">
+  <h1>Hexagon puzzle</h1>
+  <p>
+   Flip some tiles to maximize your score.
+   A red tile is worth 0.
+   A blue tile is worth 2 plus 1 per red neighbor.
+  </p>
+  <p>Current score: <span id="score">0</span></p>
+ </div>
+ <script src="index.js"></script>
+</body>
+</html>
